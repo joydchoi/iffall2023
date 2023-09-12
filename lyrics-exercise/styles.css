@@ -1,0 +1,40 @@
+body {
+  background-image: url("https://img.freepik.com/free-photo/abstract-wallpaper-background-design-dark-design_53876-146674.jpg?w=2000&t=st=1694547146~exp=1694547746~hmac=21b128cbcb4af6df5504ab7e96d650a10117af99d569d7d1d0e4975f28e8947e");
+}
+
+
+p.p1 {
+    line-height: 1.6;
+    color:white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    text-align: center;
+}
+
+main {
+    justify-content: center;
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 50px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
