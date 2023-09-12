@@ -1,7 +1,7 @@
-body {
-  background-image: url("https://img.freepik.com/free-photo/abstract-wallpaper-background-design-dark-design_53876-146674.jpg?w=2000&t=st=1694547146~exp=1694547746~hmac=21b128cbcb4af6df5504ab7e96d650a10117af99d569d7d1d0e4975f28e8947e");
-}
-
+    body {
+        background-image: url("file:///Users/joydaheechoi/Downloads/fog.jpg");
+        background-position: center center;
+    }
 
 p.p1 {
     line-height: 1.6;
