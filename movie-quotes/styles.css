@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient(green,black);
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+  }
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    text-align: center;
+  }
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+  }
+
+    p.firstparagraph {
+        line-height: 1.6;
+        color:white;
+    }
+    p.secondparagraph {
+        line-height: 1.6;
+        color:white;
+    }
+    p.thirdparagraph {
+        line-height: 1.6;
+        font-style: italic;
+        color:white;
+    }
+    p.fourthparagraph {
+        line-height: 1.6;
+        color:white;
+    }
+    p.fifthparagraph {
+        line-height: 1.6;
+        font-style: italic;
+        color:white;
+    }
+    p.lastparagraph {
+        line-height: 1.6;
+        color:white;
+    }
+
+    .bolded {font-weight: bold;}
