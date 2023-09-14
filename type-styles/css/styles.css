@@ -1,0 +1,141 @@
+html {
+    color: #A9907E;
+    background-color: #FEFAE0;
+    font-size: 25pt;
+}
+
+h1 {
+    margin-top: 2rem;
+    color:#94A684;
+    letter-spacing: .02em;
+    text-transform: capitalize;
+    text-indent: 2rem;
+    font-family: "ubuntu";
+    margin-bottom: -0.3rem;
+}
+
+h2 {
+    font-size: 20pt;
+    letter-spacing: .02em;
+    text-transform: capitalize;
+    text-indent: 2rem;
+    font-family: "ubuntu";
+    margin-bottom: -0.5rem;
+}
+
+h3 {
+    font-size: 17pt;
+    color: #94A684;
+    letter-spacing: .02em;
+    text-transform: capitalize;
+    text-indent: 2rem;
+    margin-top: -.8rem;
+    font-family: "ubuntu";
+}
+
+h4 {
+    font-size: 13pt;
+    letter-spacing: .02em;
+    text-transform: capitalize;
+    text-indent: 2rem;
+    margin-top: 0rem;
+    margin-bottom: -0.4rem;
+    font-family: "ubuntu";
+}
+
+p {
+    font-size: 13pt;
+    line-height: 1.4; 
+    text-indent: 2rem;
+    color: #AEC3AE;
+}
+
+p.bold {
+    font-weight:bold;
+    font-size: 13pt;
+    line-height: 1.4; 
+    text-indent: 2rem;
+    color: #AEC3AE;
+}
+
+p.italic {
+    font-style:italic;
+    font-size: 13pt;
+    line-height: 1.4; 
+    text-indent: 2rem;
+    color: #AEC3AE;
+}
+
+p.three {
+    letter-spacing: 0.3em;
+    font-size: 13pt;
+    line-height: 1.4; 
+    text-indent: 2rem;
+    color: #AEC3AE;
+}
+
+.ow-break-word {
+    overflow-wrap: break-word;
+  }
+
+
+p.six {
+    letter-spacing: -.06em;
+    font-size: 13pt;
+    line-height: 1.4; 
+    text-indent: 2rem;
+    color: #AEC3AE;
+}
+
+p.ul {
+    font-size: 13pt;
+    line-height: 1.4; 
+    text-indent: 2rem;
+    color: #AEC3AE;
+    text-decoration: underline;
+}
+
+p.lt {
+    font-size: 13pt;
+    line-height: 1.4; 
+    text-indent: 2rem;
+    color: #AEC3AE;
+    text-decoration: line-through;
+}
+
+p.ol {
+    font-size: 13pt;
+    line-height: 1.4; 
+    text-indent: 2rem;
+    color: #AEC3AE;
+    text-decoration: overline;
+}
+
+p.up {
+    font-size: 13pt;
+    line-height: 1.4; 
+    text-indent: 2rem;
+    color: #AEC3AE;
+    text-transform: uppercase;
+}
+
+p.low {
+    font-size: 13pt;
+    line-height: 1.4; 
+    text-indent: 2rem;
+    color: #AEC3AE;
+    text-transform: lowercase;
+}
+
+p.cap {
+    font-size: 13pt;
+    line-height: 1.4; 
+    text-indent: 2rem;
+    color: #AEC3AE;
+    text-transform: capitalize;
+}
+
+section {
+    margin: 2.5em 0;
+}
+
