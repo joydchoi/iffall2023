@@ -109,11 +109,6 @@ h6 {
     margin-top: 3%;
 }
 
-.steps {
-    margin-left: 18%;
-    margin-right: 18%;
-}
-
 .ingredients, .materials {
     list-style-type: circle;
     margin: 0;
@@ -156,8 +151,8 @@ ul {
     margin-left: 18%;
     margin-right: 18%;
     padding-bottom: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .foot {
@@ -166,20 +161,33 @@ ul {
     margin-bottom: 30px;
 }
 
-@media (min-width: 425px) {
+@media (max-width: 425px) {
     .mont2 {
         width: 63%;
         height: 63%;
         margin-left: .5%;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .info {
         font-size: 80%;
+        column-gap: 10px;
     }
 
     .blah {
         font-size: 80%;
         margin-bottom: 4%;
+    }
+
+    h1 {
+        font-size: 120%;
+        padding-top: 1em;
+        margin-bottom: -7px;
+    }
+
+    h2 {
+        font-size: 80%;
     }
 
     h3 {
@@ -196,6 +204,9 @@ ul {
 
     .steps {
         font-size: 80%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
     }
     
     .column {
@@ -205,5 +216,13 @@ ul {
     .step, .step1, .step3 {
         height: 45%;
         width: 45%;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .ingredients, .materials {
+        padding-left: 10px;
     }
 }
