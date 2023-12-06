@@ -10,11 +10,16 @@ hr {
     margin-right: 3%;
 }
 
+.footline {
+    width: 100%;
+}
+
 .start {
     display: flex;
     justify-content:left;
     margin-top: 10%;
     width: 100%;
+    height: auto;
 }
 
 .sticky-head {
@@ -234,3 +239,64 @@ a:hover {
     border-radius: 6px;
   }
   
+
+
+
+  @media (max-width: 1440px) {
+    .timeline {
+        margin-left: -5%;
+        max-width: 600px;    
+    }
+
+    .content {
+        padding: 28px 30px;
+    }
+
+    .container::after {
+        right: 1%;
+    }
+
+    .right::after {
+        right: 95.5%;
+     }
+
+  }
+
+  @media (max-width: 1024px) {
+    p {
+        font-size: 100%;
+        margin-right: 10%;
+    }
+
+    .start {
+        width: 125%;
+    }
+  }
+
+  @media (max-width: 425px) {
+    footer {
+        font-size: 75%;
+    }
+
+    .start {
+        width: 242%;
+    }
+
+    .who {
+        margin-left: 39%;
+    }
+
+    .timeline {
+        margin-left: -18%;
+        max-width: 800px;   
+    }
+
+    .container::after {
+        right: -3%;
+    }
+
+    .right::after {
+        right: 97%;
+     }
+
+  }
